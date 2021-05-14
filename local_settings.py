@@ -30,8 +30,8 @@ SRC_URL = ['http://www.example.com/one', 'https://www.example.com/two']  # A com
 WEB_CONTEXT = ['span', 'h2']  # A comma-separated list of the tag or object to search for in each page above.
 WEB_ATTRIBUTES = [{'class': 'example-text'}, {}] # A list of dictionaries containing the attributes for each page.
 
-ODDS = 1  # How often do you want this to run? 8 = 1/8 times?
-ORDER = 2  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
+ODDS = 2  # How often do you want this to run? 8 = 1/8 times?
+ORDER = 4  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
 
 DEBUG = False  # Set this to False to start Tweeting live
 TWEET_ACCOUNT = "m3m0rydump"  # The name of the account you're tweeting to.

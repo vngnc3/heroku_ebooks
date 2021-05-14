@@ -31,7 +31,7 @@ WEB_CONTEXT = ['span', 'h2']  # A comma-separated list of the tag or object to s
 WEB_ATTRIBUTES = [{'class': 'example-text'}, {}] # A list of dictionaries containing the attributes for each page.
 
 ODDS = 2  # How often do you want this to run? 8 = 1/8 times?
-ORDER = 2  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
+ORDER = 3  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
 
 DEBUG = True  # Set this to False to start Tweeting live
 TWEET_ACCOUNT = "m3m0rydump"  # The name of the account you're tweeting to.

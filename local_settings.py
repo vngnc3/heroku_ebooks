@@ -24,14 +24,14 @@ TWITTER_SOURCE_ACCOUNTS = ["vngnc"]  # A list of comma-separated, quote-enclosed
 MASTODON_SOURCE_ACCOUNTS = [""] # A list, e.g. ["@user@instance.tld"]
 SOURCE_EXCLUDE = r'^$'  # Source tweets that match this regexp will not be added to the Markov chain. You might want to filter out inappropriate words for example.
 STATIC_TEST = True  # Set this to True if you want to test Markov generation from a static file instead of the API.
-TEST_SOURCE = "new_corpus.txt"  # The name of a text file of a string-ified list for testing. To avoid unnecessarily hitting Twitter API. You can use the included testcorpus.txt, if needed.
+TEST_SOURCE = "gpt2_corpus_v1.txt"  # The name of a text file of a string-ified list for testing. To avoid unnecessarily hitting Twitter API. You can use the included testcorpus.txt, if needed.
 SCRAPE_URL = False  # Set this to true to scrape a webpage.
 SRC_URL = ['http://www.example.com/one', 'https://www.example.com/two']  # A comma-separated list of URLs to scrape
 WEB_CONTEXT = ['span', 'h2']  # A comma-separated list of the tag or object to search for in each page above.
 WEB_ATTRIBUTES = [{'class': 'example-text'}, {}] # A list of dictionaries containing the attributes for each page.
 
 ODDS = 2  # How often do you want this to run? 8 = 1/8 times?
-ORDER = 2  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
+ORDER = 3  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
 
 DEBUG = True  # Set this to False to start Tweeting live
 TWEET_ACCOUNT = "m3m0rydump"  # The name of the account you're tweeting to.
